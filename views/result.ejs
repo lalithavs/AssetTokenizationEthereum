@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <!-- Compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/stylesheets/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="nav-wrapper indigo accent-1">
+          <a href="/" class="brand-logo">Employee Rewards</a>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger"
+            ><i class="material-icons">menu</i></a
+          >
+          <ul class="right hide-on-med-and-down">
+            <li><a href="/">Register Employee</a></li>
+            <li><a href="/disable">Disable Employee</a></li>
+            <li><a href="/appraisal">Employee Appraisal</a></li>
+            <li><a href="/balance">Check Token Balance</a></li>
+            <li><a href="/shop">Shop</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <ul class="sidenav indigo accent-1" id="mobile-demo">
+        <li><a href="/">Register Employee</a></li>
+        <li><a href="/disable">Disable Employee</a></li>
+        <li><a href="/appraisal">Employee Appraisal</a></li>
+        <li><a href="/balance">Check Token Balance</a></li>
+        <li><a href="/shop">Shop</a></li>
+      </ul>
+    </header>
+
+    <main>
+      <h5><%= message %></h5>
+      <p>
+        Please use the links on the header or footer to navigate to the
+        respective pages.
+      </p>
+    </main>
+
+    <footer class="page-footer indigo accent-1">
+      <div class="container">
+        <div class="row">
+          <div class="col l6 s12">
+            <h5 class="white-text">Employee Rewards</h5>
+          </div>
+          <div class="col l4 offset-l2 s12">
+            <h5 class="white-text">Links</h5>
+            <ul>
+              <li>
+                <a class="grey-text text-lighten-3" href="/">
+                  Register Employee
+                </a>
+              </li>
+              <li>
+                <a class="grey-text text-lighten-3" href="/disable">
+                  Disable Employee
+                </a>
+              </li>
+              <li>
+                <a class="grey-text text-lighten-3" href="/appraisal">
+                  Employee Appraisal
+                </a>
+              </li>
+              <li>
+                <a class="grey-text text-lighten-3" href="/balance">
+                  Check Token Balance
+                </a>
+              </li>
+              <li>
+                <a class="grey-text text-lighten-3" href="/shop"> Shop </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="/javascripts/mobile.js"></script>
+  </body>
+</html>

@@ -1,0 +1,1 @@
+geth --identity "Node1" --networkid "5777" --mine --miner.threads 1 --datadir "data" --unlock "0" --password "password.sec" --http --http.port "8545" --http.corsdomain "*" --http.api "miner,eth,net,web3,personal" --allow-insecure-unlock --nodiscover --ipcpath "~/Library/Ethereum/geth.ipc"
